@@ -17,13 +17,19 @@ The epoch used for this dataset is 2697 BCE. There is one record in the table fo
 
 ### Fields
 
-*g_date*: The gregorian date for this record.
-*g_day_name*: The full name of the day of the week (Monday, Tuesday, etc.)
-*l_day*: The day component of the lunar date.
-*l_month*: The month component of the lunar month.
-*l_year*: The lunar year.
-*notes*: Notes included from the HK Observatory of significance for a given day, such as "Winter Solstice" and "Autumnal Equinox".
-*rnum*: A unique ID used for data manipulation.
+*g_date* - The gregorian date for this record.
+
+*g_day_name* - The full name of the day of the week (Monday, Tuesday, etc.)
+
+*l_day* - The day component of the lunar date.
+
+*l_month* - The month component of the lunar month.
+
+*l_year* - The lunar year.
+
+*notes* - Notes included from the HK Observatory of significance for a given day, such as "Winter Solstice" and "Autumnal Equinox".
+
+*rnum* - A unique ID used for data manipulation.
 
 ## How to Import the Dataset
 The dataset is a dump file from postgres; a product of the pgdump command.
